@@ -1,3 +1,8 @@
+variable "log_analytics_workspace_name" {
+  description = "Specified the Name of the Log Analytics Workspace."
+}
+
+
 variable "sku" {
   description = "Specified the Sku of the Log Analytics Workspace."
   default     = "PerNode"
